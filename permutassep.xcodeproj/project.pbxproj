@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58AF13F321671F2C0004D731 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF13F221671F2C0004D731 /* AppDelegate.swift */; };
+		58AF13F521671F2C0004D731 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF13F421671F2C0004D731 /* ViewController.swift */; };
+		58AF13F821671F2C0004D731 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AF13F621671F2C0004D731 /* Main.storyboard */; };
+		58AF13FB21671F2C0004D731 /* permutassep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58AF13F921671F2C0004D731 /* permutassep.xcdatamodeld */; };
+		58AF13FD21671F2D0004D731 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AF13FC21671F2D0004D731 /* Assets.xcassets */; };
+		58AF140021671F2D0004D731 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AF13FE21671F2D0004D731 /* LaunchScreen.storyboard */; };
+		58AF140B21671F2D0004D731 /* permutassepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF140A21671F2D0004D731 /* permutassepTests.swift */; };
+		58AF141621671F2D0004D731 /* permutassepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF141521671F2D0004D731 /* permutassepUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58AF140721671F2D0004D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58AF13E721671F2C0004D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AF13EE21671F2C0004D731;
+			remoteInfo = permutassep;
+		};
+		58AF141221671F2D0004D731 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58AF13E721671F2C0004D731 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58AF13EE21671F2C0004D731;
+			remoteInfo = permutassep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58AF13EF21671F2C0004D731 /* permutassep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = permutassep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AF13F221671F2C0004D731 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58AF13F421671F2C0004D731 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58AF13F721671F2C0004D731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58AF13FA21671F2C0004D731 /* permutassep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = permutassep.xcdatamodel; sourceTree = "<group>"; };
+		58AF13FC21671F2D0004D731 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58AF13FF21671F2D0004D731 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58AF140121671F2D0004D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AF140621671F2D0004D731 /* permutassepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = permutassepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AF140A21671F2D0004D731 /* permutassepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutassepTests.swift; sourceTree = "<group>"; };
+		58AF140C21671F2D0004D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AF141121671F2D0004D731 /* permutassepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = permutassepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58AF141521671F2D0004D731 /* permutassepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permutassepUITests.swift; sourceTree = "<group>"; };
+		58AF141721671F2D0004D731 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58AF13EC21671F2C0004D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF140321671F2D0004D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF140E21671F2D0004D731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58AF13E621671F2C0004D731 = {
+			isa = PBXGroup;
+			children = (
+				58AF13F121671F2C0004D731 /* permutassep */,
+				58AF140921671F2D0004D731 /* permutassepTests */,
+				58AF141421671F2D0004D731 /* permutassepUITests */,
+				58AF13F021671F2C0004D731 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58AF13F021671F2C0004D731 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58AF13EF21671F2C0004D731 /* permutassep.app */,
+				58AF140621671F2D0004D731 /* permutassepTests.xctest */,
+				58AF141121671F2D0004D731 /* permutassepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58AF13F121671F2C0004D731 /* permutassep */ = {
+			isa = PBXGroup;
+			children = (
+				58AF13F221671F2C0004D731 /* AppDelegate.swift */,
+				58AF13F421671F2C0004D731 /* ViewController.swift */,
+				58AF13F621671F2C0004D731 /* Main.storyboard */,
+				58AF13FC21671F2D0004D731 /* Assets.xcassets */,
+				58AF13FE21671F2D0004D731 /* LaunchScreen.storyboard */,
+				58AF140121671F2D0004D731 /* Info.plist */,
+				58AF13F921671F2C0004D731 /* permutassep.xcdatamodeld */,
+			);
+			path = permutassep;
+			sourceTree = "<group>";
+		};
+		58AF140921671F2D0004D731 /* permutassepTests */ = {
+			isa = PBXGroup;
+			children = (
+				58AF140A21671F2D0004D731 /* permutassepTests.swift */,
+				58AF140C21671F2D0004D731 /* Info.plist */,
+			);
+			path = permutassepTests;
+			sourceTree = "<group>";
+		};
+		58AF141421671F2D0004D731 /* permutassepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58AF141521671F2D0004D731 /* permutassepUITests.swift */,
+				58AF141721671F2D0004D731 /* Info.plist */,
+			);
+			path = permutassepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58AF13EE21671F2C0004D731 /* permutassep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AF141A21671F2D0004D731 /* Build configuration list for PBXNativeTarget "permutassep" */;
+			buildPhases = (
+				58AF13EB21671F2C0004D731 /* Sources */,
+				58AF13EC21671F2C0004D731 /* Frameworks */,
+				58AF13ED21671F2C0004D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = permutassep;
+			productName = permutassep;
+			productReference = 58AF13EF21671F2C0004D731 /* permutassep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58AF140521671F2D0004D731 /* permutassepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AF141D21671F2D0004D731 /* Build configuration list for PBXNativeTarget "permutassepTests" */;
+			buildPhases = (
+				58AF140221671F2D0004D731 /* Sources */,
+				58AF140321671F2D0004D731 /* Frameworks */,
+				58AF140421671F2D0004D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58AF140821671F2D0004D731 /* PBXTargetDependency */,
+			);
+			name = permutassepTests;
+			productName = permutassepTests;
+			productReference = 58AF140621671F2D0004D731 /* permutassepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58AF141021671F2D0004D731 /* permutassepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58AF142021671F2D0004D731 /* Build configuration list for PBXNativeTarget "permutassepUITests" */;
+			buildPhases = (
+				58AF140D21671F2D0004D731 /* Sources */,
+				58AF140E21671F2D0004D731 /* Frameworks */,
+				58AF140F21671F2D0004D731 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58AF141321671F2D0004D731 /* PBXTargetDependency */,
+			);
+			name = permutassepUITests;
+			productName = permutassepUITests;
+			productReference = 58AF141121671F2D0004D731 /* permutassepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58AF13E721671F2C0004D731 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jorge E. Hernández";
+				TargetAttributes = {
+					58AF13EE21671F2C0004D731 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					58AF140521671F2D0004D731 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 58AF13EE21671F2C0004D731;
+					};
+					58AF141021671F2D0004D731 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 58AF13EE21671F2C0004D731;
+					};
+				};
+			};
+			buildConfigurationList = 58AF13EA21671F2C0004D731 /* Build configuration list for PBXProject "permutassep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58AF13E621671F2C0004D731;
+			productRefGroup = 58AF13F021671F2C0004D731 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58AF13EE21671F2C0004D731 /* permutassep */,
+				58AF140521671F2D0004D731 /* permutassepTests */,
+				58AF141021671F2D0004D731 /* permutassepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58AF13ED21671F2C0004D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF140021671F2D0004D731 /* LaunchScreen.storyboard in Resources */,
+				58AF13FD21671F2D0004D731 /* Assets.xcassets in Resources */,
+				58AF13F821671F2C0004D731 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF140421671F2D0004D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF140F21671F2D0004D731 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58AF13EB21671F2C0004D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF13F521671F2C0004D731 /* ViewController.swift in Sources */,
+				58AF13F321671F2C0004D731 /* AppDelegate.swift in Sources */,
+				58AF13FB21671F2C0004D731 /* permutassep.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF140221671F2D0004D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF140B21671F2D0004D731 /* permutassepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58AF140D21671F2D0004D731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58AF141621671F2D0004D731 /* permutassepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58AF140821671F2D0004D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AF13EE21671F2C0004D731 /* permutassep */;
+			targetProxy = 58AF140721671F2D0004D731 /* PBXContainerItemProxy */;
+		};
+		58AF141321671F2D0004D731 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58AF13EE21671F2C0004D731 /* permutassep */;
+			targetProxy = 58AF141221671F2D0004D731 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58AF13F621671F2C0004D731 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AF13F721671F2C0004D731 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58AF13FE21671F2D0004D731 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58AF13FF21671F2D0004D731 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58AF141821671F2D0004D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58AF141921671F2D0004D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58AF141B21671F2D0004D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = permutassep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutassep.permutassep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58AF141C21671F2D0004D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = permutassep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutassep.permutassep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58AF141E21671F2D0004D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = permutassepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutassep.permutassepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/permutassep.app/permutassep";
+			};
+			name = Debug;
+		};
+		58AF141F21671F2D0004D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = permutassepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutassep.permutassepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/permutassep.app/permutassep";
+			};
+			name = Release;
+		};
+		58AF142121671F2D0004D731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = permutassepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutassep.permutassepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = permutassep;
+			};
+			name = Debug;
+		};
+		58AF142221671F2D0004D731 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = permutassepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutassep.permutassepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = permutassep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58AF13EA21671F2C0004D731 /* Build configuration list for PBXProject "permutassep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF141821671F2D0004D731 /* Debug */,
+				58AF141921671F2D0004D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AF141A21671F2D0004D731 /* Build configuration list for PBXNativeTarget "permutassep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF141B21671F2D0004D731 /* Debug */,
+				58AF141C21671F2D0004D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AF141D21671F2D0004D731 /* Build configuration list for PBXNativeTarget "permutassepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF141E21671F2D0004D731 /* Debug */,
+				58AF141F21671F2D0004D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58AF142021671F2D0004D731 /* Build configuration list for PBXNativeTarget "permutassepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58AF142121671F2D0004D731 /* Debug */,
+				58AF142221671F2D0004D731 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58AF13F921671F2C0004D731 /* permutassep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58AF13FA21671F2C0004D731 /* permutassep.xcdatamodel */,
+			);
+			currentVersion = 58AF13FA21671F2C0004D731 /* permutassep.xcdatamodel */;
+			path = permutassep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 58AF13E721671F2C0004D731 /* Project object */;
+}
